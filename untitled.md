@@ -1,4 +1,8 @@
-# How to get the Confidence of a processed barcode
+# How to get the recognition confidence of the barcodes
+
+The score of recognition confidence could measure the reliability of a scaning result, the higher the confidence level, the more precise the results are. We could obtain confidence result from `ExtendedResult`. The following code snippet shows how to get the confidence of the barcodes decoded by the SDK.
+
+
 
 {% tabs %}
 {% tab title="C" %}
