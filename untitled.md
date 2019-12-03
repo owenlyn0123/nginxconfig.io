@@ -38,6 +38,33 @@ printf("Barcode Confidence : %d \r", paryResult->results[iIndex]->results[0]->co
 CBarcodeReader::FreeTextResults(&paryResult);
 ```
 {% endtab %}
+
+{% tab title="C\#" %}
+```
+BarcodeReader dbr = new BarcodeReader();
+PublicRuntimeSettings runtimeSettings = dbr.GetRuntimeSettings();
+dbr.ProductKeys = "Put your license key here";
+TextResult[] aryResult = dbr.DecodeFile("Put your file path here", "");
+for (var i = 0; i < aryResult.Length; i++)
+{
+Console.WriteLine("Barcode: {0}", (i + 1));
+Console.WriteLine("Barcode Confidence: {0}", aryResult[i].Results[0].confidence);
+}
+```
+{% endtab %}
+
+{% tab title="Java" %}
+```
+BarcodeReader dbr = new BarcodeReader("put your license here");
+TextResult[] results = dbr.decodeFile("put your file path here", "");
+String output = "";
+for(int i =0; i<result.length;i++){
+output += "Barcode Confidence: ";
+output += result[i].results[0].confidence + "\n\n";                  
+}
+System.out.println(output);
+```
+{% endtab %}
 {% endtabs %}
 
 
