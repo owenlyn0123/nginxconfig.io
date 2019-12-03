@@ -40,7 +40,7 @@ CBarcodeReader::FreeTextResults(&paryResult);
 {% endtab %}
 
 {% tab title="C\#" %}
-```
+```csharp
 BarcodeReader dbr = new BarcodeReader();
 PublicRuntimeSettings runtimeSettings = dbr.GetRuntimeSettings();
 dbr.ProductKeys = "Put your license key here";
@@ -54,7 +54,7 @@ Console.WriteLine("Barcode Confidence: {0}", aryResult[i].Results[0].confidence)
 {% endtab %}
 
 {% tab title="Java" %}
-```
+```java
 BarcodeReader dbr = new BarcodeReader("put your license here");
 TextResult[] results = dbr.decodeFile("put your file path here", "");
 String output = "";
