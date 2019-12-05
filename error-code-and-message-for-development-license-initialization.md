@@ -22,7 +22,7 @@ _For users who use Dynamsoft Barcode Reader SDK\(C/C++\), errors occurred unepec
 
 ##  Solutions
 
-_If it is the first time you run the code, we suggest you use GetErrorString method to have a better understanding when an error occurred._ 
+_If it is the first time you run the code, we suggest you use `GetErrorString` method to have a better understanding when an error occurred._ 
 
 **InitLicenseFromServer**
 
