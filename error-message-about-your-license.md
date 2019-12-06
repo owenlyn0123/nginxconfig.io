@@ -4,7 +4,7 @@ description: 'Windows, C/C+, TroubleShooting, License'
 
 # Error Message About Your License
 
-_For users who use Dynamsoft Barcode Reader SDK\(C/C++\), errors may occurred unepected during license initialization phrase. We will give some solutions if you have met following Sympton_
+_For users who use Dynamsoft Barcode Reader SDK\(C/C++\), errors may occurred unepected during license initialization phrase. In this article, we will give some solutions if you have met following Sympton_
 
 ## Sympton
 
@@ -73,5 +73,5 @@ Error Message: The license content is invalid
 
 Solution: For users who use  `InitLicenseFromLicenseContent()` API to register the license , please verify the generated content, and recheck the order of the parameters.
 
-
+ If this article doesn't help resolve the license issue, please contact [Customer Service](https://www.dynamsoft.com/Company/Contact.aspx) for further assistance.
 
