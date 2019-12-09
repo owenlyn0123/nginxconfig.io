@@ -4,7 +4,7 @@ description: 'Windows, C/C+, TroubleShooting, License'
 
 # Error Message About Your License
 
-_For users who use Dynamsoft Barcode Reader SDK\(C/C++\), errors may occurred unepected during license initialization phrase. In this article, we will give some solutions if you have met following Sympton_
+_For users who use_ [_Dynamsoft Barcode Reader SDK_](https://www.dynamsoft.com/Products/Dynamic-Barcode-Reader.aspx)_\(C/C++\), errors may occurred unepected during license initialization phrase. In this article, we will give some solutions if you have met following Sympton_
 
 ## Sympton
 
